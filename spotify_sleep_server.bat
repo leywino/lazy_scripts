@@ -1,0 +1,2 @@
+python "SpotifySleepServer.py"
+pause
