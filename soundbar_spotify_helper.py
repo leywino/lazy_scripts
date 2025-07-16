@@ -132,7 +132,8 @@ def setup_tray():
 
 def start_flask_server():
     print("Access Spotify Timer at: http://<your-ip>:5000")
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5000, debug=False, use_reloader=False)
+
 
 # --- Start everything ---
 if __name__ == "__main__":
